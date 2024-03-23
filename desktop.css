@@ -1,0 +1,130 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*Navbar design start*/
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.nav-menu{
+    
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.nav-menu a{
+    background-color: transparent;
+    padding: 5px 10px;
+    margin:20px 0px; 
+}
+
+/*Navbar design end*/
+
+/*Profile design start*/
+.profile .top-icon{
+    width:120px;
+    right:100px;
+    transition: width 2s, transform 2s;
+ }
+ 
+ .profile .top-icon:hover{
+   width:140px;
+ }
+
+ .profile-des p{
+    margin:0 auto;
+    width:50%;
+    margin-bottom:10px;
+
+ }
+
+
+ .profile .bottom-icon{
+    bottom:20px;
+    width:120px;
+    left:100px;
+    transition:width 2s, transform 2s;
+ }
+
+ .profile .bottom-icon:hover{
+    width:140px;
+ }
+/*Profile design end*/
+
+/*About me start*/
+.about-me-image{
+    margin-top: 100px;
+}
+
+.about-me-image img{
+    height: 280px;
+    width:260px;
+}
+
+.about-me-des p{
+    text-align: left;
+}
+/*About me end*/
+
+/*professional experince start*/
+.proffesionla-experince{
+    padding:1% 4%;
+}
+/*professional experince end*/
+
+/*Contact Me Section start*/
+.achievements{
+    padding-right:35px ;
+}
+
+.contact-me button{
+    padding:7px 15px;
+    width:100px;
+}
+
+.contact-links{
+    position:relative;
+}
+
+.contact-links .media-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: 200px;
+    
+    transform: translate(-50%, -50%);
+}
+/*Contact Me Section End*/
+
+/*footer start*/
+.footer-menu{
+    margin-top:12px;
+}
+
+.footer-menu a{
+    display: inline-block;
+    margin: 0px 10px;
+    margin-bottom:12px;
+    font-size:;
+}
+
+.footer-des{
+    text-align: center;
+    padding-top: 17px;
+}
+/*footer end*/
